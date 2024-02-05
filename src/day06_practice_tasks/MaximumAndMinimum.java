@@ -1,6 +1,6 @@
 package day06_practice_tasks;
 
-public static double calculate(double x, char operator, double y) {
+/*public static double calculate(double x, char operator, double y) {
 
     boolean validOperator = (operator == '+' || operator == '-' || operator == '/' || operator == '*');
 
@@ -18,7 +18,7 @@ public static double calculate(double x, char operator, double y) {
 
     return result;
 }
-
+*/
 /*3. Create a class named MaximumAndMinimum:
 
 	2.1 Create a method named max that returns the maximum number between two integer numbers.
