@@ -57,8 +57,6 @@ public class MaximumAndMinimum {
         }
     }
 
-
-
 }
 /*3. Create a class named MaximumAndMinimum:
 
