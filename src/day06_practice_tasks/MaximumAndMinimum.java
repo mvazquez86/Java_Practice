@@ -1,24 +1,65 @@
-package day06_practice_tasks;
+ package day06_practice_tasks;
 
-/*public static double calculate(double x, char operator, double y) {
+public class MaximumAndMinimum {
 
-    boolean validOperator = (operator == '+' || operator == '-' || operator == '/' || operator == '*');
+    public static void main(String[] args) {
 
-    if (!validOperator) {
-        return 0;
+        int maxInt =  max(7,13);
+        System.out.println(maxInt);
+
+        double maxDou =  max(7.5,7.6);
+        System.out.println(maxDou);
+
+        int minInt =  min(7,13);
+        System.out.println(minInt);
+
+        double minDoub =  min(7.13,11.23);
+        System.out.println(minDoub);
+
     }
 
-    double result=0;
+    public static int max(int num1, int num2){
 
-    switch (operator) {
-        case '+' -> result = x + y;
-        case '-' -> result = x - y;
-        case '/' -> result = x / y;
+        if(num1<num2){
+            return num2;
+        }
+        else{
+            return num1;
+        }
     }
 
-    return result;
+    public static double max(double num1, double num2) {
+
+        if (num1 < num2) {
+            return num2;
+        } else {
+            return num1;
+        }
+    }
+
+    public static int min(int num1, int num2){
+
+        if(num1<num2){
+            return num1;
+        }
+        else{
+            return num2;
+        }
+    }
+
+    public static double min(double num1, double num2){
+
+        if(num1<num2){
+            return num1;
+        }
+        else{
+            return num2;
+        }
+    }
+
+
+
 }
-*/
 /*3. Create a class named MaximumAndMinimum:
 
 	2.1 Create a method named max that returns the maximum number between two integer numbers.
@@ -43,3 +84,4 @@ package day06_practice_tasks;
 				100
 
 */
+
